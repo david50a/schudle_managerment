@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "qapplication": "cpp",
+    "iosfwd": "cpp",
+    "random": "cpp"
+  },
+  "cmake.configureSettings": {          
+    "CMAKE_TOOLCHAIN_FILE": "C:/Users/meira/vcpkg/scripts/buildsystems/vcpkg.cmake",
+    "VCPKG_TARGET_TRIPLET": "x64-mingw-dynamic",
+    "CMAKE_PREFIX_PATH": "C:/Qt/6.9.2/mingw_64"
+  }
+}

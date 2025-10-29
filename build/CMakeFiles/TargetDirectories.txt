@@ -1,0 +1,5 @@
+C:/Users/meira/OneDrive/Documents/c++/schudle_managerment/build/CMakeFiles/ScheduleManagement.dir
+C:/Users/meira/OneDrive/Documents/c++/schudle_managerment/build/CMakeFiles/edit_cache.dir
+C:/Users/meira/OneDrive/Documents/c++/schudle_managerment/build/CMakeFiles/rebuild_cache.dir
+C:/Users/meira/OneDrive/Documents/c++/schudle_managerment/build/CMakeFiles/ScheduleManagement_autogen_timestamp_deps.dir
+C:/Users/meira/OneDrive/Documents/c++/schudle_managerment/build/CMakeFiles/ScheduleManagement_autogen.dir

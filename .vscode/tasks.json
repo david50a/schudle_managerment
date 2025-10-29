@@ -1,0 +1,44 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build Qt5 + Haru PDF (MinGW)",
+            "command": "C:/msys64/ucrt64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                
+                // Qt includes
+                "-IC:/Qt/6.9.2/mingw_64/include",
+                
+                // Haru PDF include
+                "-IC:/msys64/ucrt64/include",
+                
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe",
+                
+                // Qt + Haru PDF library paths
+                "-L${vcpkgRoot}/installed/x64-mingw-dynamic/lib",
+                "-LC:/msys64/ucrt64/lib",
+                
+                // Libraries
+                "-lQt5Core",
+                "-lQt5Gui",
+                "-lQt5Widgets",
+                "-lhpdf",
+                "-pthread"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compile Qt5 x64-mingw-dynamic + Haru PDF using MSYS2 g++"
+        }
+    ]
+}
